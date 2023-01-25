@@ -16,9 +16,10 @@
 }
 
 .specifics__list {
-    // display: flex;
-    // padding: 94px auto;
-    // gap: 30px;
+    display: flex;
+    padding: 94px auto;
+    gap: 30px;
+    flex-wrap: wrap;
 }
 
 .specifics__link {
