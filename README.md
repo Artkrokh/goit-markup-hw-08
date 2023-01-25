@@ -1,55 +1,88 @@
-# goit-markup-hw-03
-<!DOCTYPE html>
-<html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body class="body">
-    <header class="header">
-      <div class="container header-container">
-        <nav class="nav">
-          <a href="./index.html" class="logo-title"
-            >Web<span class="logo-head">Studio</span></a
-          >
-          <!-- Links to other pages or sections of the current page -->
-          <ul class="nav-list">
-            <li class="nav-link">
-              <a class="nav-text current" href="./index.html">Студія</a>
-            </li>
-            <li class="nav-link">
-              <a class="nav-text" href="./portfolio.html">Портфоліо</a>
-            </li>
-            <li class="nav-link"><a class="nav-text" href="">Контакти</a></li>
-          </ul>
-        </nav>
-        <ul class="contacts">
-          <li class="contacts-link">
-            <a class="contacts-text" href="mailto:info@devstudio.com">
-              <svg class="contacts-icon" width="16" height="12">
-                <use href="./images/icons.svg#icon-envelope"></use>
-                </svg>info@devstudio.com</a>
-          </li>
-          <li class="contacts-link">
-            <a class="contacts-text" href="tel:+380961111111">
-              <svg class="contacts-icon" width="10" height="16">
-                <use href="./images/icons.svg#icon-smartphone"></use>
-                </svg>+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </div>
-      <!-- A link to an external resource will open in the current tab -->
-    </header>
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: $primaryTextColor;
+    background-image: $heroBackgroundGradient,
+        url('../images/hero-bg-mob-1x.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 118px;
+    padding-bottom: 118px;
+    @include mobile {
+    padding: 118px 60px;
+    }
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background-image: $heroBackgroundGradient,
+            url('../images/hero-bg-mob-2x.jpg');}
+    @include tablet {
+        background-image: $heroBackgroundGradient,
+            url('../images/hero-bg-tab-1x.jpg');
+        padding: 118px 204px;
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: $heroBackgroundGradient,
+                url('../images/hero-bg-tab-2x.jpg');
+        }
+    }
+    @include desktop {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        background-image: $heroBackgroundGradient,
+            url('../images/hero-bg-1x.jpg');
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            background-image: $heroBackgroundGradient,
+                url('../images/hero-bg-2x.jpg');
+        }
+    }
+}
+
+
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    @media screen and (min-width: $mobile) {
+        max-width: $mobile;
+    }
+    @media screen and (min-width: $tablet) {
+        max-width: $tablet;
+    }
+    @media screen and (min-width: $desktop) {
+        max-width: $desktop;
+    }
+}
+
+.hero {
+    &__title {
+        width: 100%;
+        margin: 0 auto 20px auto;
+        @include mobile {
+            width: 360px;
+        }
+        @include font (900, 26px, 1.61, 0.06em);
+        @include desktop {
+            margin: 0 auto 30px auto;
+            width: 696px;
+            @include font (900, 44px, 1.35, 0.06em);
+        }
+        text-align: center;
+        text-transform: uppercase;
+        color: $whiteColor;
+    }
+        &__button {
+        margin-left: auto;
+        margin-right: auto;
+        @media screen and (min-width: $desktop) {
+        width: 216px;}
+    }
+}
