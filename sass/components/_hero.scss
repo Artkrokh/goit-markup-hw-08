@@ -25,7 +25,7 @@
 .hero__title {
     text-transform: uppercase;
     font-style: normal;
-    @include font (900, 44)
+    @include font (900, 44px, 1.36, un);
     // font-weight: 900;
     // font-size: 44px;
     width: 100%;
