@@ -21,7 +21,7 @@
 @mixin font($fw, $fs, $lh, $ls) {
     font-weight: $fw;
     font-size: $fs;
-    line-height: $fs / $lh;
+    line-height: $lh;
     letter-spacing: $ls;
 }
 
