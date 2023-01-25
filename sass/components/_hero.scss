@@ -4,7 +4,7 @@
     margin: 0 auto;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
-        url(/images/heromo1x.jpg);
+        url(/images/heromobo1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -16,7 +16,7 @@
             (min-resolution: 2dppx) {
                 background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                             rgba(47, 48, 58, 0.4)),
-                        url(/images/heromo2x.jpg);
+                        url(/images/heromobo2x.jpg);
             }
 
 }
@@ -26,7 +26,7 @@
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    width: 696px;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
     line-height: 1.36;
