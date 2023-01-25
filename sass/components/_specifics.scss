@@ -1,0 +1,53 @@
+.specifics {
+    padding-top: 94px;
+}
+
+.specifics__caption {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.specifics__list {
+    display: flex;
+    padding: 94px auto;
+    gap: 30px;
+}
+
+.specifics__link {
+    max-width: 270px;
+}
+
+.specifics__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    margin: 0;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+.specifics__text {
+    font-size: 14px;
+    line-height: 1.714;
+    margin-top: 10px;
+    color: var(--text-color);
+}
+
+.planning {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background: var(--background-team);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}

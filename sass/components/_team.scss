@@ -1,0 +1,84 @@
+.team {
+    background: var(--background-team);
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team__cart {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team__list {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+    justify-content: center;
+}
+
+.personal__link {
+    background-color: var(--background-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.personal__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    margin: 0;
+    color: var(--title-color);
+}
+
+.personal__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    margin-top: 10px;
+    color: var(--text-color);
+    margin-bottom: 16px;
+}
+
+.personal__soc__list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.personal__soc__link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.personal__soc__icon {
+    fill: var(--icon-color);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.personal__soc__link:hover,
+.personal__soc__link:focus {
+    background-color: var(--accent-color);
+}
+
+.personal__soc__link:hover .personal__soc__icon,
+.personal__soc__link:focus .personal__soc__icon {
+    fill: var(--hero-color);
+}

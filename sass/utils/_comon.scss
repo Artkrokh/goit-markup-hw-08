@@ -1,0 +1,44 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav__list,
+.contacts,
+.specifics__list,
+.ocupation__list,
+.team__list,
+.address__list,
+.filtr__item,
+.project__item,
+.location__item,
+.list {
+    list-style: none;
+}
+
+.body {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+    background-color: var(--background-color);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+h2 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+}
