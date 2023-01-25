@@ -287,6 +287,10 @@ p {
   margin: -1px;
 }
 
+.specifics__link {
+  max-width: 450px;
+}
+
 .specifics__title {
   font-weight: 700;
   font-size: 14px;
