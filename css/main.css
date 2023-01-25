@@ -307,7 +307,6 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 270px;
   height: 120px;
   background: var(--background-team);
   border-radius: 4px;
