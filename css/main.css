@@ -291,7 +291,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 94px auto;
+  padding: 60px auto;
   gap: 30px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
@@ -306,6 +306,7 @@ p {
   font-size: 14px;
   line-height: 1.14;
   margin: 0;
+  text-align: center;
   text-transform: uppercase;
   color: var(--title-color);
 }
