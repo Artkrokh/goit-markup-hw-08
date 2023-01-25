@@ -2,10 +2,10 @@
     padding: 200px 0;
     max-width: 100%;
     margin: 0 auto;
-     @include mobile {
+    
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-            url(/images/heromobo1x.jpg)}
+            url(/images/heromobo1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -25,7 +25,7 @@
 .hero__title {
     text-transform: uppercase;
     font-style: normal;
-    @include font (900, 44px, 1.36, un);
+    @include font (900, 26px, 42, unll);
     // font-weight: 900;
     // font-size: 44px;
     width: 100%;
@@ -42,7 +42,7 @@
     line-height: 1.8;
     color: var(--hero-color);
     width: 100%;
-    padding: 10px 32px;
+    padding: 10px 24px;
     margin: 40px auto 0;
     border: none;
     cursor: pointer;
