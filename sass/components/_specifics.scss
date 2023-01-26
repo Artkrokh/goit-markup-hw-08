@@ -24,6 +24,9 @@
 
 .specifics__link {
     max-width: 450px;
+    @media screen and (min-width: 768px) {
+            width: calc((100% - 30px)/2);
+        }
 }
 
 .specifics__title {
@@ -46,7 +49,7 @@
 
 .planning {
     display: flex;
-    max-width: 450px;
+    width: 100%;
     height: 120px;
     background: var(--background-team);
     border-radius: 4px;
