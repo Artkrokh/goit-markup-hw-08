@@ -302,11 +302,11 @@ p {
       flex-wrap: wrap;
 }
 
-.specifics__link {
+.specifics__item {
   max-width: 450px;
 }
 @media screen and (min-width: 768px) {
-  .specifics__link {
+  .specifics__item {
     width: calc((100% - 30px) / 2);
   }
 }
