@@ -313,7 +313,7 @@ p {
 }
 
 .specifics {
-  padding-top: 60px;
+  padding: 60px 0;
 }
 
 .specifics__caption {
