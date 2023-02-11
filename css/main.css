@@ -57,6 +57,11 @@
   background-color: var(--background-color);
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -436,11 +441,6 @@ p {
 
 .team {
   background: var(--background-team);
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .team__cart {
