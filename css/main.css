@@ -557,8 +557,8 @@ p {
 
 .customers {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.1666666667;
+  font-size: 28px;
+  line-height: 1.1785714286;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -572,7 +572,7 @@ p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 50px;
+  margin-top: 30px;
   gap: 30px;
 }
 
