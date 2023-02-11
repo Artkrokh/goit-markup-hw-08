@@ -587,8 +587,18 @@ p {
 }
 
 .customers__list {
-  width: 170px;
+  width: calc((100% - 30px) / 2);
   height: 92px;
+}
+@media screen and (min-width: 768px) {
+  .customers__list {
+    width: calc((100% - 60px) / 3);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .customers__list {
+    width: 170px;
+  }
 }
 
 .customers__link {
