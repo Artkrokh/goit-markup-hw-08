@@ -283,6 +283,10 @@ p {
 @media screen and (min-width: 1200px) {
   .hero__title {
     width: calc(100% - 452px);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.3636363636;
+    letter-spacing: 0.06em;
   }
 }
 
