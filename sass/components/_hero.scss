@@ -58,7 +58,7 @@
     margin: 0 auto;
     color: var(--hero-color);
     @include tablet {
-            width: calc(100% - 204px * 2);
+            width: calc(100% - 360px);
         }
         @include desktop {
             width: calc(100% - 452px);
