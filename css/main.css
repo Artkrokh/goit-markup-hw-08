@@ -815,6 +815,11 @@ p {
 .social__container {
   margin: 60px;
 }
+@media screen and (min-width: 768px) {
+  .social__container {
+    margin: 0;
+  }
+}
 
 .social__title {
   padding-top: 12px;
@@ -889,6 +894,11 @@ p {
   font-size: 14px;
   line-height: 1.1;
 }
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .subscription__title {
+    margin-top: 60px;
+  }
+}
 
 .subscription__field {
   display: -webkit-box;
@@ -960,7 +970,7 @@ p {
   line-height: 1.875;
   color: var(--hero-color);
   width: 200px;
-  margin: 20px;
+  margin-top: 20px;
   border: none;
   cursor: pointer;
   background-color: var(--accent-color);
