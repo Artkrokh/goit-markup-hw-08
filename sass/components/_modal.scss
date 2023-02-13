@@ -10,6 +10,10 @@
     transform: translate(-50%, -50%) scale(1);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 40px;
+    @include desktop {
+        max-width: 528px;
+        max-height: 581px;        
+    }
 }
 
 .modal__title {
@@ -35,8 +39,7 @@
 }
 
 .conditions__text {
-    font-size: 14px;
-    line-height: calc(24 / 14);
+    @include font (400, 12, calc(14/12), 0.03em);
     color: var(--text-color);
     display: flex;
     justify-content: center;
