@@ -14,7 +14,7 @@
     @include font(700,28px, calc(33px/28px), null);
     margin-bottom: 50px;
     text-align: center;
-    @media screen and (min-width:1200px) {
+    @include desktop {
         @include font(700, 36px, 1.16, null);
     }
 }
@@ -34,17 +34,17 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     width: 100%;
-    @media screen and (min-width: 768px) {
+    @include tablet {
             width: calc((100% - 30px)/2);
         }
     
-        @media screen and (min-width: 1200px) {
+        @include desktop {
             width: calc((100% - 90px)/4);
         }
     
 }
 .personal_img {
-    @media screen and (min-width: 1200px) {
+    @include desktop {
             width: 270px;
             height: 260px;
         }

@@ -27,10 +27,10 @@
 .customers__list {
     width: calc((100% - 30px)/2);
     height: 92px;
-    @media screen and (min-width: 768px) {
+    @include tablet {
             width: calc((100% - 60px)/3);
         }
-        @media screen and (min-width: 1200px) {
+        @include desktop {
             width: 170px;
         }
 }
