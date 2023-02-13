@@ -5,6 +5,10 @@
 .header__container {
     display: flex;
     align-items: center;
+    height: 60px;
+        @include tablet {
+           height: 80px;
+        }
 }
 
 .current::after {

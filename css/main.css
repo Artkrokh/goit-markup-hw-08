@@ -92,6 +92,12 @@ p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 60px;
+}
+@media screen and (min-width: 768px) {
+  .header__container {
+    height: 80px;
+  }
 }
 
 .current::after {
