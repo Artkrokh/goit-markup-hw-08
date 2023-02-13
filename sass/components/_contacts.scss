@@ -1,8 +1,11 @@
 
 .contacts {
-    margin-left: auto;
-    gap: 30px;
-    display: flex;
+    display: none;
+    @include tablet {
+        margin-left: auto;
+        gap: 10px;
+        display: flex;
+    }
 }
 
 .contacts__item {

@@ -5,10 +5,13 @@
 }
 
 .nav__list {
-    display: flex;
-    gap: 50px;
-    margin-left: 93px;
-    align-items: center;
+    display: none;
+    @include tablet{
+        display: flex;
+        gap: 50px;
+        margin-left: 87px;
+        align-items: center;
+    }
 }
 
 .nav__item {
