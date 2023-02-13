@@ -222,6 +222,13 @@ p {
   color: var(--text-color);
   background-color: var(--background-color);
 }
+@media screen and (min-width: 1200px) {
+  .contacts__item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428571429;
+  }
+}
 
 .contacts__text {
   text-decoration: none;

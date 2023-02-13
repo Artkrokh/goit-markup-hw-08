@@ -18,6 +18,9 @@
     @include font (500, 12px, calc(14/12), 0.02em);
     color: var(--text-color);
     background-color: var(--background-color);
+    @include desktop {
+        @include font (500, 14px, calc(16/14), null)
+    }
 }
 
 .contacts__text {
