@@ -8,4 +8,8 @@
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-around;
+    @media screen and (min-width: 1200px) {
+        text-align: left;
+        justify-content: space-between;
+    }
 }
