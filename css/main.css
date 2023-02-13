@@ -244,7 +244,13 @@ p {
 }
 @media screen and (min-width: 480px) {
   .hero {
-    max-width: 768px;
+    max-width: 767px;
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/heromobo2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/heromobo2x.jpg);
   }
 }
 @media screen and (min-width: 768px) {
