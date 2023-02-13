@@ -758,6 +758,17 @@ p {
   background: var(--fon-color);
 }
 
+.basement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 .address {
   margin-top: 20px;
   line-height: 1.714;
@@ -973,15 +984,6 @@ p {
 .subscription__button:focus {
   color: var(--background-color);
   background-color: var(--hover-blue);
-}
-
-.basement {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
 }
 
 .backdrop {
