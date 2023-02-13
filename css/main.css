@@ -889,10 +889,6 @@ p {
   fill: var(--hero-color);
 }
 
-.subsciption__conteiner {
-  margin-left: 93px;
-}
-
 .subscription__title {
   padding: 0;
   font-weight: 700;
