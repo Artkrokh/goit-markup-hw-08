@@ -769,8 +769,6 @@ p {
 }
 
 .project__item {
-  width: 450px;
-  height: 404px;
   border: 1px solid var(--portfolio-projects-border-color);
   -webkit-transition: -webkit-box-shadow var(--transition);
   transition: -webkit-box-shadow var(--transition);
