@@ -25,7 +25,13 @@
     height: 404px;
     border: 1px solid var(--portfolio-projects-border-color);
     transition: box-shadow var(--transition);
-
+    @include tablet {
+            width: calc((100% - 30px)/2);
+        }
+    
+        @include desktop {
+            width: calc((100% - 60px)/3);
+        }
 }
 
 .project__text {
