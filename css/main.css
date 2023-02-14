@@ -1160,7 +1160,16 @@ p {
   transition: -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 40px;
+}
+@media screen and (max-width: 767px) {
+  .modal {
+    padding: 30px;
+  }
+}
+@media screen and (min-width: 410px) {
+  .modal {
+    padding: 40px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .modal {
@@ -1193,7 +1202,7 @@ p {
 
 .conditions__text {
   font-weight: 400;
-  font-size: 12;
+  font-size: 12px;
   line-height: 1.1666666667;
   letter-spacing: 0.03em;
   color: var(--text-color);
@@ -1207,6 +1216,20 @@ p {
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+}
+@media screen and (max-width: 767px) {
+  .conditions__text {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .conditions__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7142857143;
+    letter-spacing: 0.03em;
+  }
 }
 
 .conditions__text span {
@@ -1229,8 +1252,8 @@ p {
 
 .contract__text {
   color: var(--accent-color);
-  font-size: 14px;
-  line-height: 1.7142857143;
+  font-size: 12px;
+  line-height: 1.1666666667;
   margin-left: 4px;
 }
 
