@@ -701,10 +701,21 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 8px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+}
+@media screen and (max-width: 767px) {
+  .filtr__list {
+    max-width: 400px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .filtr__list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .button__filtr {
@@ -758,7 +769,7 @@ p {
 }
 
 .project__item {
-  width: 370px;
+  width: 450px;
   height: 404px;
   border: 1px solid var(--portfolio-projects-border-color);
   -webkit-transition: -webkit-box-shadow var(--transition);

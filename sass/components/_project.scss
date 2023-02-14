@@ -21,10 +21,11 @@
 }
 
 .project__item {
-    width: 370px;
+    width: 450px;
     height: 404px;
     border: 1px solid var(--portfolio-projects-border-color);
     transition: box-shadow var(--transition);
+
 }
 
 .project__text {
