@@ -115,16 +115,14 @@
           </ul>
         </div>
       </section>
-       <section class="ocupation"> 
+      <section class="ocupation">
         <div class="container">
           <h2 class="ocupation__title">Чим ми займаємося</h2>
           <ul class="ocupation__list">
             <li class="ocupation__link">
               <img
                 src="./images/box1.jpg"
-                srcset="
-                ./images/box1.jpg 1x,
-                ./images/box1-2x.jpg 2x"
+                srcset="./images/box1.jpg 1x, ./images/box1-2x.jpg 2x"
                 alt="кодинг"
                 width="370"
                 height="294"
@@ -134,9 +132,7 @@
             <li class="ocupation__link">
               <img
                 src="./images/box2.jpg"
-                srcset="
-                ./images/box2.jpg 1x,
-                ./images/box2-2x.jpg 2x"
+                srcset="./images/box2.jpg 1x, ./images/box2-2x.jpg 2x"
                 alt="адаптація для мобільних пристроїв"
                 width="370"
                 height="294"
@@ -146,9 +142,7 @@
             <li class="ocupation__link">
               <img
                 src="./images/box3.jpg"
-                srcset="
-                ./images/box3.jpg 1x,
-                ./images/box3-2x.jpg 2x"
+                srcset="./images/box3.jpg 1x, ./images/box3-2x.jpg 2x"
                 alt="колористика"
                 width="370"
                 height="294"
@@ -164,13 +158,36 @@
           <ul class="team__list">
             <li class="personal__item">
               <div class="persona__cart">
-                <img
-                  class="personal_img"
-                  src="./images/photo1-mob-1x.jpg"
-                  alt="фото Ігора Де'яненко"
-                  width="450"
-                  height="460"
-                />
+                <picture>
+                  <img
+                    class="personal_img"
+                    src="./images/photo1-mob-1x.jpg"
+                    alt="фото Ігор Дем'яненко"
+                    width="450"
+                    height="460"
+                  />
+                  <source
+                    srcset="
+                      ./images/photo1-desk-1x.jpg,
+                      ./images/photo1-desk-2x.jpg
+                    "
+                    media="(min-width: 1200px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/photo1-tab-1x.jpg,
+                      ./images/photo1-tab-2x.jpg
+                    "
+                    media="(min-width: 768px)"
+                  />
+                  <source
+                    srcset="
+                      ./images/photo1-mob-1x.jpg,
+                      ./images/photo1-mob-2x.jpg
+                    "
+                    media="max-width: 767px"
+                  />
+                </picture>
                 <div class="team__cart">
                   <h3 class="personal__title">Ігор Дем'яненко</h3>
                   <p class="personal__text">Product Designer</p>
@@ -208,13 +225,36 @@
               </div>
             </li>
             <li class="personal__item">
-              <img
-                class="personal_img"
-                src="./images/photo2-mob-1x.jpg"
-                alt="фото Ольги Рєпіни"
-                width="450"
-                height="460"
-              />
+              <picture>
+                <img
+                  class="personal_img"
+                  src="./images/photo2-mob-1x.jpg"
+                  alt="фото Ольга Рєпіна"
+                  width="450"
+                  height="460"
+                />
+                <source
+                  srcset="
+                    ./images/photo2-desk-1x.jpg,
+                    ./images/photo2-desk-2x.jpg
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/photo2-tab-1x.jpg,
+                    ./images/photo2-tab-2x.jpg
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/photo2-mob-1x.jpg,
+                    ./images/photo2-mob-2x.jpg
+                  "
+                  media="max-width: 767px"
+                />
+              </picture>
               <div class="team__cart">
                 <h3 class="personal__title">Ольга Рєпіна</h3>
                 <p class="personal__text">Frontend Developer</p>
@@ -251,13 +291,36 @@
               </div>
             </li>
             <li class="personal__item">
-              <img
-                class="personal_img"
-                src="./images/photo3-mob-1x.jpg"
-                alt="фото Миколи Тарасова"
-                width="450"
-                height="460"
-              />
+              <picture>
+                <img
+                  class="personal_img"
+                  src="./images/photo3-mob-1x.jpg"
+                  alt="фото Микола Тарасов"
+                  width="450"
+                  height="460"
+                />
+                <source
+                  srcset="
+                    ./images/photo3-desk-1x.jpg,
+                    ./images/photo3-desk-2x.jpg
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/photo3-tab-1x.jpg,
+                    ./images/photo3-tab-2x.jpg
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/photo3-mob-1x.jpg,
+                    ./images/photo3-mob-2x.jpg
+                  "
+                  media="max-width: 767px"
+                />
+              </picture>
               <div class="team__cart">
                 <h3 class="personal__title">Микола Тарасов</h3>
                 <p class="personal__text">Marketing</p>
@@ -294,13 +357,36 @@
               </div>
             </li>
             <li class="personal__item">
-              <img
-                class="personal_img"
-                src="./images/photo4-mob-1x.jpg"
-                alt="фото Михайла Єрмакова"
-                width="450"
-                height="460"
-              />
+              <picture>
+                <img
+                  class="personal_img"
+                  src="./images/photo4-mob-1x.jpg"
+                  alt="фото Михайло Єрмаков"
+                  width="450"
+                  height="460"
+                />
+                <source
+                  srcset="
+                    ./images/photo4-desk-1x.jpg,
+                    ./images/photo4-desk-2x.jpg
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/photo4-tab-1x.jpg,
+                    ./images/photo4-tab-2x.jpg
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./images/photo4-mob-1x.jpg,
+                    ./images/photo4-mob-2x.jpg
+                  "
+                  media="max-width: 767px"
+                />
+              </picture>
               <div class="team__cart">
                 <h3 class="personal__title">Михайло Єрмаков</h3>
                 <p class="personal__text">UI Designer</p>
@@ -545,8 +631,8 @@
             <label for="contract" class="conditions__text"
               ><span
                 ><svg class="check__icon" width="16" height="15">
-                  <use href="./images/icons.svg#icon-check"></use>
-                </svg></span>
+                  <use href="./images/icons.svg#icon-check"></use></svg
+              ></span>
               Погоджуюся з розсилкою та приймаю
               <a class="contract__text" href=""> Умови договору</a></label
             >
