@@ -1500,4 +1500,15 @@ textarea::placeholder {
 .icon__close {
   margin: 0 auto;
   padding: 0 auto;
+}
+
+.menu-open-btn {
+  border: none;
+  padding: 0;
+  margin-left: auto;
+  background-color: var(--background-color);
+}
+
+.icon-menu-btn {
+  padding: 0;
 }/*# sourceMappingURL=main.css.map */
