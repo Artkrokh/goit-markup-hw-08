@@ -3,6 +3,9 @@
     padding: 0;
     margin-left: auto;
     background-color: var(--background-color);
+    @include tablet {
+        display: none;
+    }
 }
 .icon-menu-btn {
     padding: 0;

@@ -1508,6 +1508,11 @@ textarea::placeholder {
   margin-left: auto;
   background-color: var(--background-color);
 }
+@media screen and (min-width: 768px) {
+  .menu-open-btn {
+    display: none;
+  }
+}
 
 .icon-menu-btn {
   padding: 0;
