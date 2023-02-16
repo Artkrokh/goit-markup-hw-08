@@ -49,13 +49,13 @@
     padding: 40px 48px;
 }
 .menu__vav {
-
+    margin-bottom: 302px;
 }
-// .menu__nav__item {
+.menu__nav__item {
 //     font-weight: 500;
 //     color: var(--title-color);
 //     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-// }
+}
 .menu__nav__link {
     @include font (500,40px,calc(47/40),0.02em);
     text-decoration: none;
@@ -83,7 +83,6 @@
 .menu__soc {
     display: flex;
     gap: 20px;
-    justify-content: center;
     @include font(500,18px,calc(22/18),0.02em);
 }
 .menu__soc__item {
