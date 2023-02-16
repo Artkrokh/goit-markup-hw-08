@@ -4,6 +4,9 @@
     line-height: calc(33/28);
     text-align: center;
     letter-spacing: 0.03em;
+    @include desktop {
+        @include font(null, 36px, calc(42/36), null);
+    }
 }
 
 .customers__item {
