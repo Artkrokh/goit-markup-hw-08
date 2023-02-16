@@ -78,9 +78,15 @@
 .menu__contacts__item {
     margin-top: 32px;
 }
+
 .menu__contacts__link {
     text-decoration: none;
+    @include font(500,24px,calc(28/24),0.02em);
+    color: var(--text-color);
 
+}.tel {
+    @include font(500,30px,calc(40/34),0.02em);
+    color: var(--accent-color)
 }
 .menu__soc {
     display: flex;
@@ -94,7 +100,9 @@
 
 }
 .menu__soc__link {
-    text-decoration: none
+    text-decoration: none;
+    @include font(500,18px,calc(22/18),0.02em);
+    color: var(--accent-color);
 
 }
 .is-open {

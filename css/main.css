@@ -1619,6 +1619,19 @@ textarea::placeholder {
 
 .menu__contacts__link {
   text-decoration: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.1666666667;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.tel {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.1764705882;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
 }
 
 .menu__soc {
@@ -1638,6 +1651,11 @@ textarea::placeholder {
 
 .menu__soc__link {
   text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.2222222222;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
 }
 
 .is-open {
