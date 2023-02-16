@@ -1587,8 +1587,8 @@ textarea::placeholder {
           justify-content: space-between;
 }
 
-.menu__nav__item {
-  margin-top: 32px;
+.menu__nav__item:not(:last-child) {
+  margin-bottom: 32px;
 }
 
 .menu__nav__link {

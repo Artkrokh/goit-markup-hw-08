@@ -49,8 +49,8 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.menu__nav__item {
-    margin-top: 32px;
+.menu__nav__item:not(:last-child) {
+    margin-bottom: 32px;
 }
 .menu__nav__link {
     @include font (500,40px,calc(47/40),0.02em);
