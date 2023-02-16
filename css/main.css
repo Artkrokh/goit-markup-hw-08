@@ -1548,6 +1548,12 @@ textarea::placeholder {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (min-width: 768px) {
+  .menu-close,
+  .menu-open {
+    display: none;
+  }
+}
 
 .menu-open:focus,
 .menu-open:hover {
