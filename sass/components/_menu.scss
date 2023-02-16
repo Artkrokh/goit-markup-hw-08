@@ -82,6 +82,7 @@
 }
 .menu__soc {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     @include font(500,18px,calc(22/18),0.02em);
 }
