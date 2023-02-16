@@ -1627,11 +1627,15 @@ textarea::placeholder {
 }
 
 .tel {
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 1.1764705882;
-  letter-spacing: 0.02em;
   color: var(--accent-color);
+}
+@media screen and (min-width: 394px) {
+  .tel {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.1764705882;
+    letter-spacing: 0.02em;
+  }
 }
 
 .menu__soc {

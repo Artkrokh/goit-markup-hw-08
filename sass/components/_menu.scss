@@ -77,8 +77,10 @@
     color: var(--text-color);
 
 }.tel {
-    @include font(500,30px,calc(40/34),0.02em);
-    color: var(--accent-color)
+    color: var(--accent-color);
+    @include media(394px) {
+        @include font(500, 34px, calc(40/34), 0.02em);
+    }
 }
 .menu__soc {
     display: flex;
