@@ -73,8 +73,6 @@
 .contract__text {
     color: var(--accent-color);
     @include font (null, 12px, calc(14/12), null);
-    // font-size: 14px;
-    // line-height: calc(24 / 14);
     margin-left: 4px;
 }
 
@@ -215,11 +213,13 @@ textarea::placeholder {
     display: flex;
     align-items: center;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .close__button:hover,
 .close__button:focus {
-    fill: var(--accent-color)
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
 }
 
 .icon__close {

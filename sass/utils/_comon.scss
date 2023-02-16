@@ -22,8 +22,13 @@
 .filtr__item,
 .project__item,
 .location__item,
-.list {
+.list,
+.item {
     list-style: none;
+}
+
+.link {
+    text-decoration: none;
 }
 
 .body {

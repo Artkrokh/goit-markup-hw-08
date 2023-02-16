@@ -1,12 +1,50 @@
-.menu-open-btn {
-    border: none;
-    padding: 0;
-    margin-left: auto;
+// .menu-open {
+//     border: none;
+//     background-color: transparent;
+//     margin-left: auto;
+//     background-color: var(--background-color);
+//     @include tablet {
+//         display: none;
+//     }
+// }
+
+.mob-menu {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
     background-color: var(--background-color);
-    @include tablet {
-        display: none;
-    }
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    top: 0;
+    display: none;
 }
-.icon-menu-btn {
+.menu-close,
+.menu-open {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background: var(--background-color);
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-open:focus,
+.menu-open:hover {
+    fill: var(--accent-color);
+}
+.menu-close:focus,
+.menu-close:hover {
+    fill: var(--accent-color);
+}
+.icon__menu__btn {
     padding: 0;
+}
+
+.is-open {
+    display: block;
 }
