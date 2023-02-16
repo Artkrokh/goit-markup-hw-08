@@ -67,6 +67,10 @@
   padding-bottom: 60px;
 }
 
+.no__scroll {
+  overflow: hidden;
+}
+
 ul {
   padding: 0;
   margin: 0;
