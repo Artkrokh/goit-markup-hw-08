@@ -2,7 +2,6 @@
     border: none;
     background-color: transparent;
     margin-left: auto;
-    background-color: var(--background-color);
     @include tablet {
         display: none;
     }

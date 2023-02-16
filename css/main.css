@@ -1520,7 +1520,6 @@ textarea::placeholder {
   border: none;
   background-color: transparent;
   margin-left: auto;
-  background-color: var(--background-color);
 }
 @media screen and (min-width: 768px) {
   .menu-open {
