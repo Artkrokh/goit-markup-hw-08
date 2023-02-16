@@ -1573,9 +1573,7 @@ textarea::placeholder {
 }
 
 .menu__container {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-left: 48px;
+  padding: 40px 48px;
 }
 
 .menu__nav__link {
@@ -1605,9 +1603,9 @@ textarea::placeholder {
   display: -ms-flexbox;
   display: flex;
   gap: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.2222222222;

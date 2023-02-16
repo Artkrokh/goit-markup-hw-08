@@ -43,9 +43,10 @@
     padding: 0;
 }
 .menu__container {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 48px;
+    // padding-top: 40px;
+    // padding-bottom: 40px;
+    // padding-left: 48px;
+    padding: 40px 48px;
 }
 .menu__vav {
 
@@ -82,8 +83,7 @@
 .menu__soc {
     display: flex;
     gap: 20px;
-    align-items: center;
-    
+    justify-content: center;
     @include font(500,18px,calc(22/18),0.02em);
 }
 .menu__soc__item {
