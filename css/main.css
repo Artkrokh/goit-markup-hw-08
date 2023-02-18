@@ -939,7 +939,7 @@ p {
 }
 
 .social__container {
-  margin: 60px;
+  margin: 60px 0;
 }
 @media screen and (min-width: 768px) {
   .social__container {
