@@ -40,8 +40,10 @@
     background-color: var(--background-color);
 }
 .section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 0;
+        @media screen and (min-width: 1200px) {
+            padding: 94px 0;
+        }
 }
 .no__scroll {
     overflow: hidden;
