@@ -15,10 +15,4 @@
     refs.body.classList.toggle("no__scroll");
     
   }
-  window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
-    if (!e.matches) return;
-    refs.menu.classList.toggle('is__hidden');
-    openMenuBtn.setAttribute('aria-expanded', false);
-    bodyScrollLock.enableBodyScroll(document.body);
-  });
 })();

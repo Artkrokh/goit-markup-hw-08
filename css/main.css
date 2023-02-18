@@ -71,8 +71,10 @@
   }
 }
 
-.no__scroll {
-  overflow: hidden;
+@media screen and (max-width: 767px) {
+  .no__scroll {
+    overflow: hidden;
+  }
 }
 
 ul {
