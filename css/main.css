@@ -1544,6 +1544,11 @@ textarea::placeholder {
   top: 0;
   z-index: 5;
 }
+@media screen and (min-width: 768px) {
+  .mob-menu {
+    display: none;
+  }
+}
 
 .menu-close {
   position: absolute;
